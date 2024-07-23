@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="calculadora">
+    <input type="text" id="display" readonly>
+    <br/>
+    <input type="button" value="C" name="limpar" onclick="limpar()">
+    <div class="itens">
+      <input type="button" value="7" onclick="adicionarNaTela('7')">
+      <input type="button" value="8" onclick="adicionarNaTela('8')">
+      <input type="button" value="9" onclick="adicionarNaTela('9')">
+      <input type="button" value="/" onclick="adicionarNaTela('/')">
+    </div>
+    <div class="itens">
+      <input type="button" value="4"onclick="adicionarNaTela('4')">
+      <input type="button" value="5"onclick="adicionarNaTela('5')">
+      <input type="button" value="6"onclick="adicionarNaTela('6')">
+      <input type="button" value="*"onclick="adicionarNaTela('*')">
+    </div>
+    <div class="itens">
+      <input type="button" value="1" onclick="adicionarNaTela('1')">
+      <input type="button" value="2" onclick="adicionarNaTela('2')">
+      <input type="button" value="3" onclick="adicionarNaTela('3')">
+      <input type="button" value="-" onclick="adicionarNaTela('-')">
+    </div>
+    <div class="itens">
+      <input type="button" value="0" onclick="adicionarNaTela('0')">
+      <input type="button" value="." onclick="adicionarNaTela('.')">
+      <input type="button" value="+" onclick="adicionarNaTela('+')">
+      <input type="button" name="igual" value="=" onclick="calcular()">
+    </div>
+  </div>
+</body>
+</html>
