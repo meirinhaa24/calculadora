@@ -44,7 +44,7 @@ body{
 }
 
 .calculadora input[name="igual"]:hover{
-  background-color: rgb(10,102,10);
+  background-color: rgb(10, 102, 31);
 }
 
 .itens{
